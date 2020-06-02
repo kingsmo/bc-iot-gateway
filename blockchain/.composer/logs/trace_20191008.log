@@ -1,0 +1,126 @@
+2019-10-08T17:03:10.856Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T17:03:10.860Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T17:16:33.677Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode iot-network:0.0.7 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T17:16:33.706Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode iot-network:0.0.7 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T17:23:00.354Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T17:23:00.358Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T17:23:00.359Z ERROR   :HLFConnection            :install()                 {"message":"Error trying install business network. Error: The business network is already installed on all the peers","stack":"Error: Error trying install business network. Error: The business network is already installed on all the peers\n    at HLFConnection.install (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:602:30)\n    at <anonymous>"}$
+2019-10-08T17:23:06.272Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T17:23:06.373Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T17:23:15.626Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T17:23:15.638Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T17:23:48.279Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: chaincode with name 'iot-network' already exists {}$
+2019-10-08T17:23:48.279Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: chaincode with name 'iot-network' already exists {}$
+2019-10-08T17:28:48.280Z ERROR   :HLFTxEventHandler        :startListening()          Failed to receive commit notification from 192.168.56.108:7051 for transaction '90ad570c021f666dbe62505795d629d41e8026b7a945aada0d58eeb525c024ef' within the timeout period {}$
+2019-10-08T18:31:58.583Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:31:58.592Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:32:01.494Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:32:01.499Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:32:01.501Z ERROR   :HLFConnection            :install()                 {"message":"Error trying install business network. Error: The business network is already installed on all the peers","stack":"Error: Error trying install business network. Error: The business network is already installed on all the peers\n    at HLFConnection.install (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:602:30)\n    at <anonymous>"}$
+2019-10-08T18:32:10.082Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:32:10.104Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:32:10.127Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:32:10.148Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:38:08.537Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:38:09.835Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:38:17.799Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:38:17.806Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:38:35.856Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:38:35.857Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:38:36.534Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T18:38:36.554Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:26:31.053Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode iot-network:0.0.7 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:27:02.207Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode iot-network:0.0.7 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:28:49.292Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode iot-network:0.0.7 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:32:09.850Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:32:10.042Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:32:16.194Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:32:16.212Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:34:49.423Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier 'd8051bc191216846a6f0934d13d2a832bc15f17ec6d2a7c0594eddade196bceb', must be activated (ACTIVATION_REQUIRED)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:34:49.424Z WARN    :HLFQueryHandler          :queryChaincode()          query payload returned an error: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier 'd8051bc191216846a6f0934d13d2a832bc15f17ec6d2a7c0594eddade196bceb', must be activated (ACTIVATION_REQUIRED) {}$
+2019-10-08T19:34:49.424Z ERROR   :HLFConnection            :ping()                    {"message":"Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier 'd8051bc191216846a6f0934d13d2a832bc15f17ec6d2a7c0594eddade196bceb', must be activated (ACTIVATION_REQUIRED)","stack":"Error: Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier 'd8051bc191216846a6f0934d13d2a832bc15f17ec6d2a7c0594eddade196bceb', must be activated (ACTIVATION_REQUIRED)\n    at _checkRuntimeVersions.then.catch (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:886:34)\n    at <anonymous>"}$
+2019-10-08T19:44:03.874Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: Failed to add object with ID '0001' in collection with ID 'Participant:org.gateway.datasensor.Gateway' as the object already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:44:03.980Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: Failed to add object with ID '0001' in collection with ID 'Participant:org.gateway.datasensor.Gateway' as the object already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:44:04.286Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: Failed to add object with ID '0001' in collection with ID 'Participant:org.gateway.datasensor.Gateway' as the object already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:44:04.396Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: Failed to add object with ID '0001' in collection with ID 'Participant:org.gateway.datasensor.Gateway' as the object already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:45:23.222Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: The current identity, with the name 'chalif' and the identifier '0a0f7c1b9033a7b94100db18cdec41a82e0a8270ea2f73aa430345ed41660237', must be activated (ACTIVATION_REQUIRED)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-08T19:45:23.223Z WARN    :HLFQueryHandler          :queryChaincode()          query payload returned an error: Error: transaction returned with failure: Error: The current identity, with the name 'chalif' and the identifier '0a0f7c1b9033a7b94100db18cdec41a82e0a8270ea2f73aa430345ed41660237', must be activated (ACTIVATION_REQUIRED) {}$
+2019-10-08T19:45:23.223Z ERROR   :HLFConnection            :ping()                    {"message":"Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'chalif' and the identifier '0a0f7c1b9033a7b94100db18cdec41a82e0a8270ea2f73aa430345ed41660237', must be activated (ACTIVATION_REQUIRED)","stack":"Error: Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'chalif' and the identifier '0a0f7c1b9033a7b94100db18cdec41a82e0a8270ea2f73aa430345ed41660237', must be activated (ACTIVATION_REQUIRED)\n    at _checkRuntimeVersions.then.catch (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:886:34)\n    at <anonymous>"}$

@@ -1,0 +1,78 @@
+2019-06-21T19:32:46.465Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T19:32:49.249Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T19:33:59.275Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T19:34:01.746Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T19:34:09.692Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T19:34:10.141Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: cannot get package for chaincode (gateway-network:0.0.1)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T19:34:10.209Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: cannot get package for chaincode (gateway-network:0.0.1)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T19:34:10.230Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: cannot get package for chaincode (gateway-network:0.0.1)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T19:34:12.974Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-06-21T19:37:16.005Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T19:37:19.350Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T19:37:22.591Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-06-21T19:37:30.266Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T19:37:33.395Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-06-21T19:37:33.396Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2019-06-21T19:52:19.441Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T19:52:27.903Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.108:8051 failed to connect: 14 UNAVAILABLE: TCP Read failed {}$
+2019-06-21T19:52:49.895Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.1(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.1 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T19:52:50.044Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.1(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.1 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T19:52:52.665Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T19:52:56.679Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-06-21T19:52:56.680Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2019-06-21T19:52:58.415Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.1(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.1 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T19:53:20.914Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T19:53:25.382Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-06-21T19:53:25.383Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2019-06-21T19:53:26.075Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode registration failed: timeout expired while starting chaincode iot-network:0.0.1 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T19:53:26.993Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode registration failed: timeout expired while starting chaincode iot-network:0.0.1 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T19:54:11.530Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: chaincode registration failed: timeout expired while starting chaincode iot-network:0.0.1 for transaction {}$
+2019-06-21T19:54:11.531Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: chaincode registration failed: timeout expired while starting chaincode iot-network:0.0.1 for transaction {}$
+2019-06-21T19:54:11.531Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: Failed to connect before the deadline {}$
+2019-06-21T19:59:15.972Z ERROR   :HLFTxEventHandler        :startListening()          Failed to receive commit notification from 192.168.56.108:7051 for transaction '7dcb8e3ffca6a19138f0a26cd841d2533e1c1f21e6bbaeb54f7a504468bf9d25' within the timeout period {}$
+2019-06-21T20:08:47.545Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T20:13:20.567Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.1(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.1 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T20:13:21.576Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.1(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.1 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T20:13:41.436Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T20:13:42.329Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.1(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.1 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T20:13:45.292Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-06-21T20:14:00.167Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T20:14:00.810Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T20:14:01.062Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T20:14:01.092Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'iot-network' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-06-21T20:14:03.773Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-06-21T20:18:36.925Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.109:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-06-21T20:19:15.052Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '6d8ca2487f832db2f0dde724c6ffc5595d500edd11ef6ac516394a7a52c068b6', has not been registered
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$

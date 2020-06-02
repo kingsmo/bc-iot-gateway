@@ -1,0 +1,24 @@
+2019-10-14T21:56:33.949Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode iot-network:0.0.8 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-14T21:56:42.511Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode iot-network:0.0.8 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-14T21:57:20.734Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode iot-network:0.0.8 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-14T21:57:20.812Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode iot-network:0.0.8 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-14T21:59:06.434Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.8(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.8 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-14T21:59:06.654Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.8(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.8 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-14T21:59:13.483Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.8(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.8 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-10-14T21:59:13.889Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.8(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.8 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$

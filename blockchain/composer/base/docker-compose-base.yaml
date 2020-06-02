@@ -1,0 +1,36 @@
+
+version: '2'
+
+services:
+
+  orderer.gateway.com:
+    container_name: orderer.gateway.com
+    image: hyperledger/fabric-orderer:latest
+    environment:
+      - ORDERER_GENERAL_LOGLEVEL=INFO
+      - ORDERER_GENERAL_LISTENADDRESS=0.0.0.0
+      - ORDERER_GENERAL_GENESISMETHOD=file
+      - ORDERER_GENERAL_GENESISFILE=/var/hyperledger/orderer/genesis.block
+      - ORDERER_GENERAL_LOCALMSPID=OrdererMSP
+      - ORDERER_GENERAL_LOCALMSPDIR=/var/hyperledger/orderer/msp
+      # enabled TLS
+      - ORDERER_GENERAL_TLS_ENABLED=true
+      - ORDERER_GENERAL_TLS_PRIVATEKEY=/var/hyperledger/orderer/tls/server.key
+      - ORDERER_GENERAL_TLS_CERTIFICATE=/var/hyperledger/orderer/tls/server.crt
+      - ORDERER_GENERAL_TLS_ROOTCAS=[/var/hyperledger/orderer/tls/ca.crt]
+    working_dir: /opt/gopath/src/github.com/hyperledger/fabric
+    command: orderer
+    volumes:
+      - ../channel-artifacts:/var/hyperledger/orderer
+      - ../crypto-config/ordererOrganizations/gateway.com/orderers/orderer.gateway.com/msp:/var/hyperledger/orderer/msp
+      - ../crypto-config/ordererOrganizations/gateway.com/orderers/orderer.gateway.com/tls/:/var/hyperledger/orderer/tls
+      - orderer.gateway.com:/var/hyperledger/production/orderer
+    extra_hosts:
+      - "peer0.org1.gateway.com:3.133.216.254"
+      - "peer1.org1.gateway.com:3.133.216.254"
+      - "peer0.org2.gateway.com:3.136.166.21"
+      - "peer1.org2.gateway.com:3.136.166.21"
+      - "ca_peerOrg1:3.133.216.254"
+      - "ca_peerOrg2:3.136.166.21"
+    ports:
+      - 7050:7050

@@ -1,0 +1,115 @@
+2019-07-22T12:15:33.578Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode iot-network:0.0.1 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T12:15:39.756Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode iot-network:0.0.1 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T12:15:46.741Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode iot-network:0.0.1 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T12:15:46.832Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode iot-network:0.0.1 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T12:28:48.202Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.1(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.1 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T12:28:48.445Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.1(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.1 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T12:28:54.637Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.1(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.1 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T12:28:54.655Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code iot-network:0.0.1(chaincode /var/hyperledger/production/chaincodes/iot-network.0.0.1 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T12:36:12.561Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier 'f9fb0b76040d351d39ec5883ba9c0b9ce3b64071857e32d17b890633c33dd285', must be activated (ACTIVATION_REQUIRED)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T12:36:12.563Z WARN    :HLFQueryHandler          :queryChaincode()          query payload returned an error: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier 'f9fb0b76040d351d39ec5883ba9c0b9ce3b64071857e32d17b890633c33dd285', must be activated (ACTIVATION_REQUIRED) {}$
+2019-07-22T12:36:12.563Z ERROR   :HLFConnection            :ping()                    {"message":"Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier 'f9fb0b76040d351d39ec5883ba9c0b9ce3b64071857e32d17b890633c33dd285', must be activated (ACTIVATION_REQUIRED)","stack":"Error: Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier 'f9fb0b76040d351d39ec5883ba9c0b9ce3b64071857e32d17b890633c33dd285', must be activated (ACTIVATION_REQUIRED)\n    at _checkRuntimeVersions.then.catch (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:886:34)\n    at <anonymous>"}$
+2019-07-22T16:20:08.123Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.108:7051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:20:08.126Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.108:8051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:20:11.179Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.110:9051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:20:11.180Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.110:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:20:11.183Z WARN    :HLFConnection            :_registerForChaincodeEven could not find any connected event hubs out of 4 defined hubs to listen on for chaincode events {}$
+2019-07-22T16:20:14.207Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-07-22T16:20:14.208Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2019-07-22T16:20:14.208Z WARN    :HLFQueryHandler          :queryChaincode()          Peer peer0.org1.hospital.com failed to respond. Error: Failed to connect before the deadline {}$
+2019-07-22T16:20:17.223Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-07-22T16:20:43.637Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.108:7051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:20:43.690Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.108:8051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:20:46.699Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.110:9051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:20:46.699Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.110:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:20:46.701Z WARN    :HLFConnection            :_registerForChaincodeEven could not find any connected event hubs out of 4 defined hubs to listen on for chaincode events {}$
+2019-07-22T16:20:49.723Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-07-22T16:20:49.724Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2019-07-22T16:20:49.725Z WARN    :HLFQueryHandler          :queryChaincode()          Peer peer0.org1.hospital.com failed to respond. Error: Failed to connect before the deadline {}$
+2019-07-22T16:20:52.741Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-07-22T16:21:10.424Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.108:7051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:21:10.426Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.108:8051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:21:13.483Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.110:9051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:21:13.486Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.110:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:21:13.488Z WARN    :HLFConnection            :_registerForChaincodeEven could not find any connected event hubs out of 4 defined hubs to listen on for chaincode events {}$
+2019-07-22T16:21:16.517Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-07-22T16:21:16.518Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2019-07-22T16:21:16.519Z WARN    :HLFQueryHandler          :queryChaincode()          Peer peer0.org1.hospital.com failed to respond. Error: Failed to connect before the deadline {}$
+2019-07-22T16:21:19.531Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-07-22T16:21:55.582Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.108:7051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:21:55.584Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.108:8051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:21:58.635Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.110:9051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:21:58.637Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.110:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:21:58.639Z WARN    :HLFConnection            :_registerForChaincodeEven could not find any connected event hubs out of 4 defined hubs to listen on for chaincode events {}$
+2019-07-22T16:22:01.672Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-07-22T16:22:01.673Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2019-07-22T16:22:01.674Z WARN    :HLFQueryHandler          :queryChaincode()          Peer peer0.org1.hospital.com failed to respond. Error: Failed to connect before the deadline {}$
+2019-07-22T16:22:04.709Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-07-22T16:30:05.077Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.108:7051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:30:05.079Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.108:8051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:30:08.141Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.110:9051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:30:08.143Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.110:10051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-07-22T16:30:08.145Z WARN    :HLFConnection            :_registerForChaincodeEven could not find any connected event hubs out of 4 defined hubs to listen on for chaincode events {}$
+2019-07-22T16:30:11.179Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-07-22T16:30:11.180Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2019-07-22T16:30:11.181Z WARN    :HLFQueryHandler          :queryChaincode()          Peer peer0.org1.hospital.com failed to respond. Error: Failed to connect before the deadline {}$
+2019-07-22T16:30:14.196Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2019-07-22T17:07:01.271Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: attempt to get property state on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'chalif' in collection with ID 'Asset:org.hyperledger.composer.system.Identity' does not exist
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T17:07:01.276Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: attempt to get property state on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'chalif' in collection with ID 'Asset:org.hyperledger.composer.system.Identity' does not exist
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T17:07:01.411Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: attempt to get property state on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'chalif' in collection with ID 'Asset:org.hyperledger.composer.system.Identity' does not exist
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T17:07:01.552Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: attempt to get property state on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'chalif' in collection with ID 'Asset:org.hyperledger.composer.system.Identity' does not exist
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T17:07:15.398Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: attempt to get property state on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'chalif' in collection with ID 'Asset:org.hyperledger.composer.system.Identity' does not exist
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T17:07:15.435Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: attempt to get property state on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'chalif' in collection with ID 'Asset:org.hyperledger.composer.system.Identity' does not exist
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T17:07:15.442Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: attempt to get property state on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'chalif' in collection with ID 'Asset:org.hyperledger.composer.system.Identity' does not exist
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T17:07:15.462Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: attempt to get property state on an InvalidRelationship is not allowed. InvalidRelationship created due to Object with ID 'chalif' in collection with ID 'Asset:org.hyperledger.composer.system.Identity' does not exist
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T17:08:27.525Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: Failed to add object with ID '0001' in collection with ID 'Participant:org.gateway.datasensor.Gateway' as the object already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T17:08:27.539Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: Failed to add object with ID '0001' in collection with ID 'Participant:org.gateway.datasensor.Gateway' as the object already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T17:08:27.543Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: Failed to add object with ID '0001' in collection with ID 'Participant:org.gateway.datasensor.Gateway' as the object already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-07-22T17:08:27.592Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: Failed to add object with ID '0001' in collection with ID 'Participant:org.gateway.datasensor.Gateway' as the object already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$

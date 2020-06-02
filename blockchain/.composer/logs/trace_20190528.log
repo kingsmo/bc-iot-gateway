@@ -1,0 +1,235 @@
+2019-05-28T16:34:05.963Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode bnastorage:0.1.30 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T16:40:51.074Z ERROR   :HLFConnectionManager     :fabric-client()           [Peer.js]: sendProposal - timed out after:2100000 {}$
+2019-05-28T16:48:37.511Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 192.168.56.108:8051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2019-05-28T16:49:16.221Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T16:50:57.232Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T16:50:57.615Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T16:59:35.705Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode bnastorage:0.1.30 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:08:42.756Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode bnastorage:0.1.30 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:09:48.687Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode bnastorage:0.1.30 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:09:50.215Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: timeout expired while starting chaincode bnastorage:0.1.30 for transaction {}$
+2019-05-28T17:09:50.314Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: timeout expired while starting chaincode bnastorage:0.1.30 for transaction {}$
+2019-05-28T17:09:50.331Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: timeout expired while starting chaincode bnastorage:0.1.30 for transaction {}$
+2019-05-28T17:13:56.338Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '333bd2e38e7e5862463b3084a3f20c6d16363402bb0b6de0bd6b202eca531497', must be activated (ACTIVATION_REQUIRED)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:13:56.340Z WARN    :HLFQueryHandler          :queryChaincode()          query payload returned an error: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '333bd2e38e7e5862463b3084a3f20c6d16363402bb0b6de0bd6b202eca531497', must be activated (ACTIVATION_REQUIRED) {}$
+2019-05-28T17:13:56.341Z ERROR   :HLFConnection            :ping()                    {"message":"Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '333bd2e38e7e5862463b3084a3f20c6d16363402bb0b6de0bd6b202eca531497', must be activated (ACTIVATION_REQUIRED)","stack":"Error: Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '333bd2e38e7e5862463b3084a3f20c6d16363402bb0b6de0bd6b202eca531497', must be activated (ACTIVATION_REQUIRED)\n    at _checkRuntimeVersions.then.catch (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:886:34)\n    at <anonymous>"}$
+2019-05-28T17:14:26.988Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: failed to execute transaction 7a12fb39138ca1527089daeb0b36a1b6e01095779ab4c91e3ff54cf4fb544b47: error sending: timeout expired while executing transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:14:41.692Z ERROR   :HLFConnectionManager     :fabric-client()           [Peer.js]: sendProposal - timed out after:45000 {}$
+2019-05-28T17:14:41.747Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: REQUEST_TIMEOUT
+    at Timeout._onTimeout (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:94:20)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5) {}$
+2019-05-28T17:14:41.748Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: REQUEST_TIMEOUT {}$
+2019-05-28T17:14:41.748Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: failed to execute transaction 7a12fb39138ca1527089daeb0b36a1b6e01095779ab4c91e3ff54cf4fb544b47: error sending: timeout expired while executing transaction {}$
+2019-05-28T17:20:04.621Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:20:04.626Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:20:04.627Z ERROR   :HLFConnection            :install()                 {"message":"Error trying install business network. Error: The business network is already installed on all the peers","stack":"Error: Error trying install business network. Error: The business network is already installed on all the peers\n    at HLFConnection.install (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:602:30)\n    at <anonymous>"}$
+2019-05-28T17:20:17.743Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:20:17.804Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:20:18.045Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:20:18.061Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:20:56.489Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:20:56.522Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:20:59.251Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:20:59.282Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:21:07.612Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:21:07.615Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:21:07.646Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:21:07.686Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:28:17.232Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:28:17.839Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:28:20.788Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:28:20.795Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:28:20.795Z ERROR   :HLFConnection            :install()                 {"message":"Error trying install business network. Error: The business network is already installed on all the peers","stack":"Error: Error trying install business network. Error: The business network is already installed on all the peers\n    at HLFConnection.install (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:602:30)\n    at <anonymous>"}$
+2019-05-28T17:28:29.091Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:28:29.113Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:28:29.133Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:28:29.154Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:28:53.333Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:28:53.343Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:28:56.106Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:28:56.110Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:28:56.112Z ERROR   :HLFConnection            :install()                 {"message":"Error trying install business network. Error: The business network is already installed on all the peers","stack":"Error: Error trying install business network. Error: The business network is already installed on all the peers\n    at HLFConnection.install (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:602:30)\n    at <anonymous>"}$
+2019-05-28T17:29:04.127Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:29:04.131Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:29:04.131Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:29:38.691Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:29:38.697Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:29:41.405Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:29:41.423Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:29:49.392Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:29:49.395Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:29:49.423Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:29:49.434Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:32:28.106Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:32:28.116Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:32:30.784Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:32:30.786Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code bnastorage:0.1.30(chaincode /var/hyperledger/production/chaincodes/bnastorage.0.1.30 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:32:30.788Z ERROR   :HLFConnection            :install()                 {"message":"Error trying install business network. Error: The business network is already installed on all the peers","stack":"Error: Error trying install business network. Error: The business network is already installed on all the peers\n    at HLFConnection.install (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:602:30)\n    at <anonymous>"}$
+2019-05-28T17:32:38.793Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:32:38.796Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:32:38.797Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T17:32:38.801Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'bnastorage' already exists
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T19:56:17.628Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode hospital-network:0.0.7 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T20:10:11.010Z ERROR   :HLFConnectionManager     :fabric-client()           [Peer.js]: sendProposal - timed out after:2100000 {}$
+2019-05-28T20:25:17.574Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code hospital-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/hospital-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T20:25:17.957Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code hospital-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/hospital-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T20:25:25.314Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code hospital-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/hospital-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T20:25:25.396Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: error installing chaincode code hospital-network:0.0.7(chaincode /var/hyperledger/production/chaincodes/hospital-network.0.0.7 exists)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T20:28:39.304Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode registration failed: container exited with 0
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T20:33:17.788Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: timeout expired while starting chaincode hospital-network:0.0.7 for transaction
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T20:33:17.805Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: timeout expired while starting chaincode hospital-network:0.0.7 for transaction {}$
+2019-05-28T20:33:17.805Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: chaincode registration failed: container exited with 0 {}$
+2019-05-28T20:35:29.282Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '4045d4b58231f6be318a7e6ccdcc40d487965254c8620f806bd72b9cf2ef37f1', must be activated (ACTIVATION_REQUIRED)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T20:35:29.284Z WARN    :HLFQueryHandler          :queryChaincode()          query payload returned an error: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '4045d4b58231f6be318a7e6ccdcc40d487965254c8620f806bd72b9cf2ef37f1', must be activated (ACTIVATION_REQUIRED) {}$
+2019-05-28T20:35:29.284Z ERROR   :HLFConnection            :ping()                    {"message":"Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '4045d4b58231f6be318a7e6ccdcc40d487965254c8620f806bd72b9cf2ef37f1', must be activated (ACTIVATION_REQUIRED)","stack":"Error: Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '4045d4b58231f6be318a7e6ccdcc40d487965254c8620f806bd72b9cf2ef37f1', must be activated (ACTIVATION_REQUIRED)\n    at _checkRuntimeVersions.then.catch (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:886:34)\n    at <anonymous>"}$
+2019-05-28T20:36:14.532Z ERROR   :HLFConnectionManager     :fabric-client()           [Peer.js]: sendProposal - timed out after:45000 {}$
+2019-05-28T20:36:14.534Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: REQUEST_TIMEOUT
+    at Timeout._onTimeout (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:94:20)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5) {}$
+2019-05-28T20:36:14.544Z ERROR   :HLFConnectionManager     :fabric-client()           [Peer.js]: sendProposal - timed out after:45000 {}$
+2019-05-28T20:36:14.545Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: REQUEST_TIMEOUT
+    at Timeout._onTimeout (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:94:20)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5) {}$
+2019-05-28T20:36:14.546Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: REQUEST_TIMEOUT {}$
+2019-05-28T20:36:14.546Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: REQUEST_TIMEOUT {}$
+2019-05-28T20:36:17.944Z ERROR   :HLFTxEventHandler        :Peer 192.168.56.108:7051  null$
+2019-05-28T20:37:24.810Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier 'ecc18ee1d39b37b06cd4316fb85d6d0fa24ced3ac793d27cc6473a3ee3f9e14a', must be activated (ACTIVATION_REQUIRED)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T20:37:24.811Z WARN    :HLFQueryHandler          :queryChaincode()          query payload returned an error: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier 'ecc18ee1d39b37b06cd4316fb85d6d0fa24ced3ac793d27cc6473a3ee3f9e14a', must be activated (ACTIVATION_REQUIRED) {}$
+2019-05-28T20:37:24.812Z ERROR   :HLFConnection            :ping()                    {"message":"Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier 'ecc18ee1d39b37b06cd4316fb85d6d0fa24ced3ac793d27cc6473a3ee3f9e14a', must be activated (ACTIVATION_REQUIRED)","stack":"Error: Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier 'ecc18ee1d39b37b06cd4316fb85d6d0fa24ced3ac793d27cc6473a3ee3f9e14a', must be activated (ACTIVATION_REQUIRED)\n    at _checkRuntimeVersions.then.catch (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:886:34)\n    at <anonymous>"}$
+2019-05-28T20:37:42.043Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '4045d4b58231f6be318a7e6ccdcc40d487965254c8620f806bd72b9cf2ef37f1', must be activated (ACTIVATION_REQUIRED)
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2019-05-28T20:37:42.045Z WARN    :HLFQueryHandler          :queryChaincode()          query payload returned an error: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '4045d4b58231f6be318a7e6ccdcc40d487965254c8620f806bd72b9cf2ef37f1', must be activated (ACTIVATION_REQUIRED) {}$
+2019-05-28T20:37:42.045Z ERROR   :HLFConnection            :ping()                    {"message":"Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '4045d4b58231f6be318a7e6ccdcc40d487965254c8620f806bd72b9cf2ef37f1', must be activated (ACTIVATION_REQUIRED)","stack":"Error: Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '4045d4b58231f6be318a7e6ccdcc40d487965254c8620f806bd72b9cf2ef37f1', must be activated (ACTIVATION_REQUIRED)\n    at _checkRuntimeVersions.then.catch (/home/peer1/.nvm/versions/node/v8.16.0/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:886:34)\n    at <anonymous>"}$

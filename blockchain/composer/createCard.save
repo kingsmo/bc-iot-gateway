@@ -1,0 +1,34 @@
+#!/bin/bash
+
+read -t 2 -p "aaaa\r"
+read -t 2 -p "bbb"
+
+echo -e 'id\c'
+echo -e 'ee'
+
+echo -n 'ID Gateway: '
+read gatewayID
+
+echo -n 'Username: '
+read username
+
+echo -n 'Password: '
+read password
+
+echo -n 'Admin Card: '
+read card
+
+try:
+       echo('\rAdding Participant...')
+       composer participant add -d '{"$class": "org.gateway.datasensor.Gateway"'+'",gatewayId":'${gatewayID}+',"username":'+${username}+',"password":'+${password}+'}' -c ${card}
+
+       sys.stdout.write('\rIssuing Identity...')
+       composer identity issue -u ${username} -a org.gateway.datasensor.Gateway#${gatewayID} -c ${card}
+
+       sys.stdout.write('\rImporting Card...')
+       composer card import -f ${username}@iot-network.card
+
+       sys.stdout.write('\rDone.')
+
+except Exception as e:
+       print (e)

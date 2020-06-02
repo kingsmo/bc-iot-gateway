@@ -1,0 +1,82 @@
+version: '2'
+
+services:
+  peer0.org2.gateway.com:
+    container_name: peer0.org2.gateway.com
+    extends:
+      file: peer-base.yaml
+      service: peer-base
+    environment:
+      - CORE_PEER_ID=peer0.org2.gateway.com
+      - CORE_PEER_ADDRESS=peer0.org2.gateway.com:7051
+      - CORE_PEER_GOSSIP_BOOTSTRAP=peer1.org2.gateway.com:7051
+      - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer0.org2.gateway.com:7051
+      - CORE_PEER_LOCALMSPID=Org2MSP
+      - CORE_PEER_TLS_ENABLED=true
+      - CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.gateway.com/peers/peer0.org2.gateway.com/tls/server.crt
+      - CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.gateway.com/peers/peer0.org2.gateway.com/tls/server.key
+      - CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.gateway.com/peers/peer0.org2.gateway.com/tls/ca.crt
+      - CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.gateway.com/users/Admin@org2.gateway.com/msp
+      - CORE_LEDGER_STATE_STATEDATABASE=CouchDB
+      - CORE_LEDGER_STATE_COUCHDBCONFIG_COUCHDBADDRESS=couchdb2:5984
+      # The CORE_LEDGER_STATE_COUCHDBCONFIG_USERNAME and CORE_LEDGER_STATE_COUCHDBCONFIG_PASSWORD
+      # provide the credentials for ledger to connect to CouchDB.  The username and password must
+      # match the username and password set for the associated CouchDB.
+      - CORE_LEDGER_STATE_COUCHDBCONFIG_USERNAME=admin
+      - CORE_LEDGER_STATE_COUCHDBCONFIG_PASSWORD=admin
+    volumes:
+      - /var/run/:/host/var/run/
+      - ../channel-artifacts:/var/hyperledger/channel-artifacts
+      - ../crypto-config/peerOrganizations/org2.gateway.com/peers/peer0.org2.gateway.com/msp:/etc/hyperledger/fabric/msp
+      - ../crypto-config/peerOrganizations/org2.gateway.com/peers/peer0.org2.gateway.com/tls:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.gateway.com/peers/peer0.org2.gateway.com/tls
+      - ../crypto-config/peerOrganizations/org2.gateway.com/users/Admin@org2.gateway.com/msp:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.gateway.com/users/Admin@org2.gateway.com/msp
+      - ../crypto-config/ordererOrganizations/gateway.com/msp/tlscacerts:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/gateway.com/msp/tlscacerts
+      - peer0.org2.gateway.com:/var/hyperledger/production
+    extra_hosts:
+      - "peer0.org1.gateway.com:3.133.216.254"
+      - "peer1.org1.gateway.com:3.133.216.254"
+      - "ca_peerOrg1:3.133.216.254"
+      - "orderer.gateway.com:18.223.18.123"
+    ports:
+      - 9051:7051
+      - 9053:7053
+
+  peer1.org2.gateway.com:
+    container_name: peer1.org2.gateway.com
+    extends:
+      file: peer-base.yaml
+      service: peer-base
+    environment:
+      - CORE_PEER_ID=peer1.org2.gateway.com
+      - CORE_PEER_ADDRESS=peer1.org2.gateway.com:7051
+      - CORE_PEER_GOSSIP_BOOTSTRAP=peer0.org2.gateway.com:7051
+      - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer1.org2.gateway.com:7051
+      - CORE_PEER_LOCALMSPID=Org2MSP
+      - CORE_PEER_TLS_ENABLED=true
+      - CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.gateway.com/peers/peer1.org2.gateway.com/tls/server.crt
+      - CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.gateway.com/peers/peer1.org2.gateway.com/tls/server.key
+      - CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.gateway.com/peers/peer1.org2.gateway.com/tls/ca.crt
+      - CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.gateway.com/users/Admin@org2.gateway.com/msp
+      - CORE_LEDGER_STATE_STATEDATABASE=CouchDB
+      - CORE_LEDGER_STATE_COUCHDBCONFIG_COUCHDBADDRESS=couchdb3:5984
+      # The CORE_LEDGER_STATE_COUCHDBCONFIG_USERNAME and CORE_LEDGER_STATE_COUCHDBCONFIG_PASSWORD
+      # provide the credentials for ledger to connect to CouchDB.  The username and password must
+      # match the username and password set for the associated CouchDB.
+      - CORE_LEDGER_STATE_COUCHDBCONFIG_USERNAME=admin
+      - CORE_LEDGER_STATE_COUCHDBCONFIG_PASSWORD=admin
+    volumes:
+        - /var/run/:/host/var/run/
+        - ../channel-artifacts:/var/hyperledger/channel-artifacts
+        - ../crypto-config/peerOrganizations/org2.gateway.com/peers/peer1.org2.gateway.com/msp:/etc/hyperledger/fabric/msp
+        - ../crypto-config/peerOrganizations/org2.gateway.com/peers/peer1.org2.gateway.com/tls:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.gateway.com/peers/peer1.org2.gateway.com/tls
+        - ../crypto-config/peerOrganizations/org2.gateway.com/users/Admin@org2.gateway.com/msp:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.gateway.com/users/Admin@org2.gateway.com/msp
+        - ../crypto-config/ordererOrganizations/gateway.com/msp/tlscacerts:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/gateway.com/msp/tlscacerts
+        - peer1.org2.gateway.com:/var/hyperledger/production
+    extra_hosts:
+      - "peer0.org1.gateway.com:3.133.216.254"
+      - "peer1.org1.gateway.com:3.133.216.254"
+      - "ca_peerOrg1:3.133.216.254"
+      - "orderer.gateway.com:18.223.18.123"
+    ports:
+      - 10051:7051
+      - 10053:7053

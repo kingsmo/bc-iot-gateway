@@ -1,0 +1,64 @@
+version: '2'
+
+volumes:
+  peer0.org2.gateway.com:
+  peer1.org2.gateway.com:
+
+services:
+
+  ca1:
+    image: hyperledger/fabric-ca
+    environment:
+      - FABRIC_CA_HOME=/etc/hyperledger/fabric-ca-server
+      - FABRIC_CA_SERVER_CA_NAME=ca-org2
+      - FABRIC_CA_SERVER_TLS_ENABLED=true
+      - FABRIC_CA_SERVER_TLS_CERTFILE=/etc/hyperledger/fabric-ca-server-config/ca.org2.gateway.com-cert.pem
+      - FABRIC_CA_SERVER_TLS_KEYFILE=/etc/hyperledger/fabric-ca-server-config/66eaaae66d811c77d1b7eaa3735964becc3e09850bf1fb7ffca2c7212ea8e26f_sk
+    ports:
+      - "8054:7054"
+    command: sh -c 'fabric-ca-server start --ca.certfile /etc/hyperledger/fabric-ca-server-config/ca.org2.gateway.com-cert.pem --ca.keyfile /etc/hyperledger/fabric-ca-server-config/66eaaae66d811c77d1b7eaa3735964becc3e09850bf1fb7ffca2c7212ea8e26f_sk -b admin:adminpw -d'
+    volumes:
+      - ./crypto-config/peerOrganizations/org2.gateway.com/ca/:/etc/hyperledger/fabric-ca-server-config
+    container_name: ca_peerOrg2
+
+  couchdb2:
+    container_name: couchdb2
+    image: hyperledger/fabric-couchdb
+    # Populate the COUCHDB_USER and COUCHDB_PASSWORD to set an admin user and password
+    # for CouchDB.  This will prevent CouchDB from operating in an "Admin Party" mode.
+    environment:
+      - COUCHDB_USER=admin
+      - COUCHDB_PASSWORD=admin
+    # Comment/Uncomment the port mapping if you want to hide/expose the CouchDB service,
+    # for gateway map it to utilize Fauxton User Interface in dev environments.
+    ports:
+      - "7984:5984"
+
+  couchdb3:
+    container_name: couchdb3
+    image: hyperledger/fabric-couchdb
+    # Populate the COUCHDB_USER and COUCHDB_PASSWORD to set an admin user and password
+    # for CouchDB.  This will prevent CouchDB from operating in an "Admin Party" mode.
+    environment:
+      - COUCHDB_USER=admin
+      - COUCHDB_PASSWORD=admin
+    # Comment/Uncomment the port mapping if you want to hide/expose the CouchDB service,
+    # for gateway map it to utilize Fauxton User Interface in dev environments.
+    ports:
+      - "8984:5984"
+
+  peer0.org2.gateway.com:
+    container_name: peer0.org2.gateway.com
+    extends:
+      file:  base/docker-compose-base3.yaml
+      service: peer0.org2.gateway.com
+    depends_on:
+      - couchdb2
+
+  peer1.org2.gateway.com:
+    container_name: peer1.org2.gateway.com
+    extends:
+      file:  base/docker-compose-base3.yaml
+      service: peer1.org2.gateway.com
+    depends_on:
+      - couchdb3

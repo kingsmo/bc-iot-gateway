@@ -1,0 +1,11 @@
+version: '2'
+
+volumes:
+  orderer.gateway.com:
+
+services:
+  orderer.gateway.com:
+    extends:
+      file:   base/docker-compose-base.yaml
+      service: orderer.gateway.com
+    container_name: orderer.gateway.com
