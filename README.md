@@ -6,4 +6,4 @@ Blockchain can become an alternative solution in managing and storing IoT data. 
 Journal
 --------------------
 
-You can find a journal documentation and background of this study in `here <http://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/6828>`_.
+You can find a journal documentation and background of this study in here: [Pengembangan Gateway untuk Menghubungkan Jaringan IoT (Internet Of Things) Dan Jaringan Blockchain](http://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/6828).
